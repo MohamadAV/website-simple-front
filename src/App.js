@@ -2,6 +2,7 @@ import React, { Component, Fragment } from "react";
 import Banner from "./components/Banner";
 import Cards from "./components/Cards";
 import Navbar from "./components/Navbar";
+import Search from "./components/Search";
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
         <Navbar />
         <Banner />
         <Cards/>
+        <Search/>
       </Fragment>
     );
   }
