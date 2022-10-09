@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import styles from "./css/cards.module.css";
 import Card from './Card';
 import iphone11 from "../images/iphone11.webp"
