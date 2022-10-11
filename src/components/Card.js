@@ -32,7 +32,7 @@ export default class Card extends Component {
       <div className={styles.container}>
         <img src={image} alt="iphone" />
         <h3>{name}</h3>
-        <p>{cost}</p>
+        <p>{cost} {counter? `× ${counter} = ${counter * Number(cost.split(" ")[0])} $`:""}</p>
 
         <div className={styles.counter}>
           <img className={this.state.counter? "":styles.deactive} src={down} alt="down-arrow" onClick={this.downHandler} />
